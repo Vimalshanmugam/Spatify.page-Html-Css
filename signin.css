@@ -1,0 +1,80 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #202020;
+    
+    
+}
+.Register{
+    width: 400px;
+    height: 500px;
+    background-color: black;  /*box oda background co;our */
+    margin: 100px auto;
+    color: white;
+    text-align: center; /* font colour */
+    padding: 10px 20px 30px; /*left top bottom*/
+    border-radius: 30px;
+}
+.Register img{
+    height: 50px;
+    color:rgb(39, 33, 33);  
+    position: relative;
+    right:22%;
+    top: 70px;
+    background-color: aqua;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.Register .input input{
+    border-radius: 30px;
+    width: 80%;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    box-sizing: border-box;
+   margin: 30px /*top*/ 0px /*left right*/ 20px;/* bottom*/
+}
+.checkbox{
+    padding: 10px 1px 0px; 
+}
+.btn button{
+ width:80%;
+  height:40px;
+  background-color: rgb(43, 223, 43);
+  text-align: center;
+  margin: 20px;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  font-size:1em;
+  color:white;
+  font-weight:500;
+}
+.Forgot_Password a{
+  text-decoration: none;
+  padding: 50px;
+  margin: 20px 0px 10px;
+  color: gray;
+}
+.Sign_in a{
+    color: white;
+    display: inline;
+    position: relative  ;
+    text-decoration: none;
+    top: 2%;
+    padding: 20px;
+    
+}
+@media (max-width: 100px) {
+    .product-card {
+      padding: 15px;
+    }
+  }
+.Sign_in a:hover{
+    text-decoration: underline 2px  rgb(0, 249, 0);
+}
+
+

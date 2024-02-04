@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202020;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: #1DB954;
+    margin-top: 30px;
+}
+
+.signup {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #181818;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #272727;
+    color: #fff;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #202020;
+    color: #fff;
+}
+.Next:hover{
+    background-color: #1DB954;
+    color: #fff;
+}
+
+/* button:hover {
+    background-color: #1DB954;
+    color: #fff;
+} */
+
+p {
+    margin-bottom: 40px;
+}
+
+/* Divider lines */
+div > p {
+    position: relative;
+}
+
+div > p::before,
+div > p::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #555;
+}
+
+div > p::before {
+    right: 5%;
+}
+
+div > p::after {
+    left: 5%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .signup {
+        max-width: 90%;
+    }
+}
+.googleimg img{
+    width: 40px;
+    position: relative;
+    right:39%;
+    top: 42px;
+}
+.googleimgst img{
+    width: 40px;
+    position: relative;
+    background-color: #181818;
+    right:39%;
+    top: 42px;
+}
+.googleimgs img{
+    width: 30px;
+    position: relative;
+    color: aliceblue;
+    right:39%;
+    top: 40px;
+}
